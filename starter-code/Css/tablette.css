@@ -1,0 +1,289 @@
+/* ------------------------------------  */
+/* ---------- Section Header ---------- */
+/* ------------------------------------  */
+
+@media screen and (max-width: 972px) {
+  .header {
+    margin: 0rem;
+    width: 92.2513020833%;
+    margin: 2.9rem auto 9rem;
+    overflow: hidden;
+  }
+
+  .header__all-social-icons {
+    padding-right: 0rem;
+  }
+
+  .header__all-social-icons-unique {
+    width: 2.461rem;
+    height: 2.4rem;
+  }
+
+  .header__name {
+    font-size: calc(3.2rem * var(--font-size-scale));
+    line-height: calc(3.2rem * var(--font-size-scale));
+    align-self: center;
+  }
+}
+/* -------------------------------------  */
+/* ---------- Section Hero ----------- */
+/* ------------------------------------  */
+
+@media screen and (max-width: 972px) {
+  .hero {
+    width: 92.2513020833%;
+    margin: 0rem auto /*38.09375% 0rem 4.16666666667%*/;
+    margin-bottom: 5rem;
+  }
+  .hero_text {
+    margin: 4.3rem 36.6998577525% 0rem 0%;
+  }
+
+  .hero_text_h1 {
+    margin-bottom: 6.6rem;
+    font-size: calc(7.2rem * var(--font-size-scale));
+    line-height: calc(7.2rem * var(--font-size-scale));
+    letter-spacing: calc(-0.204545rem * var(--font-size-scale));
+  }
+
+  .hero_desktop {
+    display: none;
+  }
+
+  .hero_tablette {
+    width: 32.2rem;
+    height: 60rem;
+    position: absolute;
+    display: block;
+    right: 0%;
+    top: 0px;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .hero__tablette-image-profile {
+    display: block;
+  }
+
+  .hero__image-tablette-profile-pattern-circle {
+    position: absolute;
+    display: block;
+    left: 260px;
+    top: 470px;
+  }
+  .hero_text_h1-line-break {
+    display: flex;
+  }
+
+  .hero_text_h1-presentation-text {
+    font-size: calc(7.2rem * var(--font-size-scale));
+    line-height: calc(7.2rem * var(--font-size-scale));
+    letter-spacing: calc(-0.204545rem * var(--font-size-scale));
+  }
+
+  .hero__text_presentation-subtext {
+    margin-right: 0%;
+    margin-bottom: 4rem;
+  }
+
+  .hero__pattern-rings {
+    position: absolute;
+    left: -30%;
+    top: 9%;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+  }
+}
+
+/* -------------------------------------------  */
+/* ---------- Section SKILSS ----------- */
+/* ------------------------------------------ */
+
+@media screen and (max-width: 972px) {
+  .skills-section {
+    width: 92.2513020833%;
+    padding: 5.2rem 0rem 0rem 0rem;
+    margin: 7.2rem auto 10rem;
+    overflow: hidden;
+  }
+
+  .skills-section__container-grid {
+    grid-template-columns: 48.87% 0.99% 48.87%;
+    grid-template-rows:
+      calc(5.6rem * var(--font-size-scale))
+      calc(1.4rem * var(--font-size-scale))
+      calc(2.8rem * var(--font-size-scale))
+      calc(5.8rem * var(--font-size-scale))
+      calc(5.6rem * var(--font-size-scale))
+      calc(1.4rem * var(--font-size-scale))
+      calc(2.8rem * var(--font-size-scale))
+      calc(5.8rem * var(--font-size-scale))
+      calc(5.6rem * var(--font-size-scale))
+      calc(1.4rem * var(--font-size-scale))
+      calc(2.8rem * var(--font-size-scale));
+  }
+
+  .grid--5 {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .grid--6 {
+    grid-column: 1;
+    grid-row: 7;
+  }
+
+  .grid--7 {
+    grid-column: 3;
+    grid-row: 5;
+  }
+
+  .grid--8 {
+    grid-column: 3;
+    grid-row: 7;
+  }
+
+  .grid--9 {
+    grid-column: 1;
+    grid-row: 9;
+  }
+
+  .grid--10 {
+    grid-column: 1;
+    grid-row: 11;
+  }
+
+  .grid--11 {
+    grid-column: 3;
+    grid-row: 9;
+  }
+
+  .grid--12 {
+    grid-column: 3;
+    grid-row: 11;
+  }
+
+  .skills-section__pattern-rings {
+    opacity: 0.25;
+    position: absolute;
+    left: 77%;
+    top: 450px;
+    mix-blend-mode: normal;
+  }
+}
+
+/* -------------------------------------------  */
+/* ----------------- Project ----------------- */
+/* -------------------------------------------  */
+
+@media screen and (max-width: 972px) {
+  .projects {
+    width: 92.2513020833%;
+    margin-bottom: 11.2rem;
+    overflow: hidden;
+  }
+
+  .projects__head {
+    margin-bottom: 6rem;
+  }
+
+  .projects__title {
+    font-size: calc(7.2rem * var(--font-size-scale));
+    line-height: calc(7.2rem * var(--font-size-scale));
+    letter-spacing: calc(-0.204545rem * var(--font-size-scale));
+  }
+
+  .projects__container {
+    gap: 2.4rem;
+    margin-bottom: 7.2rem;
+  }
+
+  .projects__container-image {
+    pointer-events: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .projects__container-skills-text {
+    line-height: calc(2.8rem * var(--font-size-scale));
+    color: #d9d9d9;
+    font-size: calc(1.8rem * var(--font-size-scale));
+  }
+
+  .btn--view-project,
+  .btn--view-code {
+    position: static; /* Remove the absolute positioning */
+    transform: none; /* Remove the translate */
+    font-size: calc(1.6rem * var(--font-size-scale));
+    line-height: calc(2.6rem * var(--font-size-scale));
+    font-weight: 700;
+  }
+
+  .projects__container-button {
+    display: flex;
+    margin-top: 2rem;
+    color: #ffffff;
+    gap: 3rem;
+  }
+
+  .large-image {
+    display: none;
+  }
+
+  .small-image {
+    display: block;
+  }
+}
+
+/* -------------------------------------------  */
+/* ----------------- FOOTER ------------------ */
+/* -------------------------------------------  */
+
+@media screen and (max-width: 972px) {
+  .footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+  }
+
+  .footer__box {
+    padding-top: 6rem;
+    flex-direction: column;
+    width: 57.9427083333%;
+    margin-bottom: 10.42rem;
+  }
+
+  .footer__box-contact {
+    width: 100%;
+    margin: 0rem auto;
+  }
+
+  .footer__box-contact-title {
+    font-size: calc(7.2rem * var(--font-size-scale));
+    line-height: calc(7.2rem * var(--font-size-scale));
+    text-align: center;
+    letter-spacing: calc(-0.204545rem * var(--font-size-scale));
+    margin-bottom: 2rem;
+  }
+
+  .footer__box-contact-subtitle {
+    text-align: center;
+    margin-bottom: 4.8rem;
+  }
+
+  #formId {
+    width: 100%;
+  }
+
+  .footer__pattern-rings {
+    left: -45%;
+    top: 70%;
+  }
+
+  .mini-footer {
+    width: 92.2513020833%;
+    margin: 0rem auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+}

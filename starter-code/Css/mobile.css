@@ -1,0 +1,415 @@
+/* ------------------------------------  */
+/* ---------- Section Header ---------- */
+/* ------------------------------------  */
+
+@media screen and (max-width: 798px) {
+  :root {
+    --font-size-scale: 0.9;
+  }
+  .hero {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  :root {
+    --font-size-scale: 0.9;
+  }
+  .hero {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 617px) {
+  :root {
+    --font-size-scale: 0.8;
+  }
+
+  .hero_tablette {
+    right: 0%;
+  }
+
+  .hero {
+    margin-bottom: 7rem;
+  }
+  .hero__image-tablette-profile-pattern-circle {
+    top: 46.8rem;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  :root {
+    --font-size-scale: 0.6;
+  }
+
+  .hero__image-tablette-profile-pattern-circle {
+    top: 327px;
+    left: 170px;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .hero {
+    margin-bottom: 0rem;
+  }
+
+  .hero_tablette {
+    width: 230px;
+    height: 429px;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  :root {
+    --font-size-scale: 1;
+  }
+
+  .header {
+    justify-content: flex-start;
+    margin: 2rem auto;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .header__name {
+    font-size: calc(2.4rem * var(--font-size-scale));
+    letter-spacing: calc(-0.0333333rem * var(--font-size-scale));
+    align-self: center;
+  }
+
+  .header__all-social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__all-social-icons-unique {
+    transform: scale(0.8, 0.8);
+    height: 28px;
+    width: 28px;
+    display: block;
+  }
+  .header__all-social-icons-unique svg {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+}
+
+/* -------------------------------------  */
+/* ---------- Section Hero ----------- */
+/* ------------------------------------  */
+
+@media screen and (max-width: 496px) {
+  .hero {
+    padding-top: 331px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 9.2rem;
+  }
+
+  .hero_text {
+    margin: 4.3rem auto 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero_text_h1 {
+    font-size: calc(4rem * var(--font-size-scale));
+    line-height: calc(4rem * var(--font-size-scale));
+    letter-spacing: calc(-0.113636rem * var(--font-size-scale));
+    text-align: center;
+    margin: 0 auto 4.3rem;
+    width: 91.4666666667%;
+  }
+
+  .hero_tablette {
+    display: none;
+  }
+
+  .hero__image-profile-mobile {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    width: 174px;
+    height: 383px;
+    left: 50%;
+    top: -120px;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    z-index: -1;
+  }
+
+  .hero__image-profile {
+    display: none;
+  }
+
+  .hero__image-profile-pattern-circle {
+    display: none;
+  }
+
+  .hero__image-mobile-profile-pattern-circle {
+    display: block;
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    left: 90%;
+    top: 13.6rem;
+  }
+
+  .hero_text_h1-line-break {
+    display: none;
+  }
+
+  .hero_text_h1-presentation-text {
+    font-size: calc(4rem * var(--font-size-scale));
+    line-height: calc(4rem * var(--font-size-scale));
+    letter-spacing: calc(-0.113636rem * var(--font-size-scale));
+  }
+
+  .hero__text_presentation-subtext {
+    font-size: calc(1.6rem * var(--font-size-scale));
+    line-height: var(--lh-2_6rem);
+    text-align: center;
+    margin-right: 0%;
+    width: 91.4666666667%;
+    margin: 0 auto 2.4rem;
+  }
+
+  .hero__pattern-rings {
+    overflow: hidden;
+    position: absolute;
+    width: 530px;
+    height: 129px;
+    left: -50%;
+    top: 5%;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    z-index: -2;
+  }
+
+  .center {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+/* -------------------------------------------  */
+/* ---------- Section SKILSS ----------- */
+/* ------------------------------------------  */
+
+@media screen and (max-width: 496px) {
+  .skills-section {
+    width: 91.4666666667%;
+    padding: 4rem 0rem 4rem;
+    border-bottom: 0.1rem solid;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+
+  .skills-section__container-grid {
+    grid-template-columns: 100%;
+    grid-template-rows: 4rem 0.1rem 2.6rem 24px 4rem 0.1rem 2.6rem 2.4rem 4rem 0.1rem 2.6rem 2.4rem 4rem 0.1rem 2.6rem 2.4rem 4rem 0.1rem 2.6rem 2.6rem;
+  }
+
+  .grid--1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .grid--2 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .grid--3 {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .grid--4 {
+    grid-column: 1;
+    grid-row: 7;
+  }
+
+  .grid--5 {
+    grid-column: 1;
+    grid-row: 9;
+  }
+
+  .grid--6 {
+    grid-column: 1;
+    grid-row: 11;
+  }
+
+  .grid--7 {
+    grid-column: 1;
+    grid-row: 13;
+  }
+
+  .grid--8 {
+    grid-column: 1;
+    grid-row: 15;
+  }
+
+  .grid--9 {
+    grid-column: 1;
+    grid-row: 17;
+  }
+
+  .grid--10 {
+    grid-column: 1;
+    grid-row: 18;
+  }
+
+  .grid--11 {
+    grid-column: 1;
+    grid-row: 22;
+  }
+
+  .grid--12 {
+    grid-column: 1;
+    grid-row: 24;
+  }
+
+  .skills-section__title {
+    font-weight: 700;
+    font-size: calc(3.2rem * var(--font-size-scale));
+    line-height: calc(4rem * var(--font-size-scale));
+    letter-spacing: calc(-0.1rem * var(--font-size-scale));
+    text-align: center;
+  }
+
+  .skills-section__experiences {
+    color: #d9d9d9;
+    font-size: calc(1.6rem * var(--font-size-scale));
+    line-height: calc(2.6rem * var(--font-size-scale));
+    text-align: center;
+  }
+
+  .skills-section__pattern-rings {
+    position: absolute;
+    width: 53rem;
+    height: 12.9rem;
+    left: 55%;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    top: 528px;
+    z-index: 5;
+  }
+}
+
+/* -------------------------------------------  */
+/* ----------------- Project ----------------- */
+/* -------------------------------------------  */
+
+@media screen and (max-width: 496px) {
+  .projects {
+    width: 91.4666666667%;
+    margin-bottom: 9.2rem;
+  }
+  .projects__head {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+  }
+  .projects__title {
+    font-size: calc(4rem * var(--font-size-scale));
+    line-height: calc(4rem * var(--font-size-scale));
+    letter-spacing: calc(-0.113636rem * var(--font-size-scale));
+  }
+
+  .projects__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5.2rem;
+    margin-bottom: 5.2rem;
+  }
+
+  .projects__container-button {
+    display: flex;
+    color: #ffffff;
+    gap: 3rem;
+  }
+}
+
+/* -------------------------------------------  */
+/* ----------------- FOOTER ------------------ */
+/* -------------------------------------------  */
+
+@media screen and (max-width: 496px) {
+  .footer {
+    padding-bottom: 0px;
+  }
+
+  .footer__box {
+    margin-bottom: 9.2rem;
+    width: 91.4666666667%;
+  }
+
+  .footer__box-contact {
+    margin: 0% auto;
+  }
+
+  .footer__box-contact-title {
+    font-size: calc(4rem * var(--font-size-scale));
+    line-height: calc(4rem * var(--font-size-scale));
+    text-align: center;
+    letter-spacing: calc(-0.113636rem * var(--font-size-scale));
+    margin-bottom: 2rem;
+  }
+
+  .footer__box-contact-subtitle {
+    font-size: calc(1.6rem * var(--font-size-scale));
+    line-height: calc(2.6rem * var(--font-size-scale));
+    margin-bottom: 5rem;
+  }
+
+  .footer__pattern-rings {
+    left: -55%;
+    top: 53.7%;
+  }
+
+  .mini-footer {
+    width: 92.2513020833%;
+    flex-direction: column;
+    padding-top: 3.9rem;
+    padding-bottom: 6rem;
+    justify-content: none;
+  }
+
+  .mini-footer__name {
+    font-size: calc(2.4rem * var(--font-size-scale));
+    letter-spacing: calc(-0.0333333rem * var(--font-size-scale));
+    align-self: center;
+  }
+
+  .mini-footer__all-social-icons {
+    padding-top: 2rem;
+    flex-direction: row;
+    gap: 2.56rem;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0rem;
+  }
+
+  .mini-footer__all-social-icons-unique {
+    transform: scale(
+      calc(0.8 * var(--font-size-scale)),
+      calc(0.8 * var(--font-size-scale))
+    );
+    height: 2.5rem;
+    width: 2.5rem;
+    display: block;
+  }
+
+  .mini-footer__all-social-icons-unique svg {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+}
